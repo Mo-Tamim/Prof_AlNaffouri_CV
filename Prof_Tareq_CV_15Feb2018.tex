@@ -1,0 +1,1535 @@
+%CV4Honeywell.tex
+
+% 01/03/2003.
+% Dr. Tareq Al-Naffouri version 6.1
+% Last Modifications : October 5, 2014 at 2:00pm
+
+
+\documentclass[9pt]{article}
+\usepackage{fullpage,latexsym,amsmath,amssymb,epsf,psfrag, enumitem}
+\usepackage{etaremune}
+\usepackage{times,hyperref}
+%amsmath: for \boldsymbol greeks, amssymb: for \gtrsim
+%\usepackage{/home/boyd/tex/version}
+\usepackage{version}
+\begin{document}
+
+\newcommand{\bfs}{\bfseries}
+
+\raggedright %\sffamily
+%==================================================
+\begin{center} {\bfs TAREQ Y. AL-NAFFOURI} \end{center}
+%\vspace{0.1in}
+%\begin{center}
+%\parbox{2.9in}{
+Al-Khawarizmi Applied Math. Building (Bldg. \#1) $|$ Office \# 3-303 \hfill  http://faculty.kfupm.edu.sa/EE/naffouri/\\
+King Abdullah University of Science and Technology (KAUST) \hfill tareq.alnaffouri@kaust.edu.sa\\
+Thuwal 23955-6900  \hfill +966-12-808-0298 (work)\\
+Kingdom of Saudi Arabia \hfill +966-544-700-795 (cell)\\
+{\vspace*{0.15cm} \hrule height.3mm}
+%======================================================================
+%\vspace{8pt}
+%{\bfs OBJECTIVE}\\
+%\vspace{0.1in} To become a World authority in signal processing and
+%its applications in wireless and wireline communications
+
+%where I can apply my expertise in signal processing and communications
+%\vspace{8pt} \\
+%======================================================================
+\vspace{8pt} {\bfs EDUCATION}\\
+\vspace{0.1in} \makebox[0.5in][l] {\bfs Ph.D.} Electrical
+Engineering, \emph{Stanford University, CA}
+\hfill 2005\\
+\hspace{.5in} Research area: Multiple antenna receiver design for wireless communications\\
+
+\vspace{0.1in} \makebox[0.5in][l]{\bfs M.S.} Electrical
+Engineering, \emph{Georgia
+Institute of Technology}  \hfill 1998\\
+\hspace{.5in} Research area: Signal processing for communications\\
+
+\vspace{0.1in}
+\makebox[0.5in][l]{\bfs M.S.} Electrical Engineering, \emph{King Fahd University of Petroleum and Minerals}  \hfill 1997\\
+\hspace{.5in} Research area: Signal processing and electromagnetics\\
+
+\vspace{0.1in} \makebox[0.5in][l]{\bfs B.Sc.} Mathematics \& Electrical Engineering,
+\emph{King Fahd University of Petroleum and Minerals}
+\hfill 1994\\
+
+\iffalse
+\vspace{0.1in}
+\parbox{0.7in}{2000}  \parbox{4.5in}{{\bfs Ph.D.} \emph{Electrical
+    Engineering}, Stanford University, Stanford, CA}\\
+\vspace{0.1in}
+\parbox{0.7in}{1992}  \parbox{4.5in}{{\bfs M.S.} \emph{Electrical
+    Engineering}, Stanford University, Stanford, CA}\\
+\vspace{0.1in}
+\parbox{0.7in}{1987}  \parbox{4.5in}{{\bfs B.Sc.} \emph{Physics},
+  Imperial College, London, U.K.}\\
+\fi
+
+\iffalse
+%======================================================================
+\vspace{8pt}
+{\bfs THESIS TOPIC}\\
+\vspace{0.1in}
+{\em Local Analysis of Perturbed Linear Systems with
+Application to Saturating Control Systems}\\
+{Research advisors: Professor Stephen Boyd and Professor
+John Fox}\\
+\vspace{0.05in}
+\iffalse
+The goal of this thesis was to develop a set of tools for computing
+guaranteed regions of attraction, bounds on $L_2$ disturbance rejection
+and on $L_2$ gain, for linear systems perturbed by sector bounded
+nonlinearities, in particular, saturation nonlinearities.
+This allows
+more daring and better specified designs.
+Efficient Linear Matrix Inequality (LMI)
+\emph{global} analysis techniques were extended to the problem of
+\emph{local} stability and performance analysis. The issue of computing
+optimal Lyapunov functions for local analysis was addressed and used to
+point out the advantages and limitations of the new techniques. The
+result is a set of tools that are: computationally efficient,
+simple to implement, easy to understand, not overly
+conservative, able to handle multiple saturation nonlinearities and both
+continuous- and discrete-time systems.\\
+%%\emph{Principal Adviser: Professor Stephen Boyd;
+%%Secondary Adviser: Professor John Fox}\\
+\fi
+%======================================================================
+\fi
+\vspace{8pt}
+{\bfs EXPERIENCE}\\
+
+\vspace{5pt} {\bfs  Associate Professor,} \emph{King Abdullah University
+of Science and Technology, Saudi Arabia} \hfill  Feb. 2012-present
+\begin{itemize}
+
+\item Teaching Adaptive filtering, Digital Communications, Information Theory and Compressed Sensing.
+
+\item Carrying out research in adaptive and statistical signal processing, compressed sensing and its applications, wireless sensor networks, heterogeneous wireless networks, and network coding.
+
+% including lab
+%development and graduate admission committees.
+
+\end{itemize}
+
+
+\vspace{5pt} {\bfs Director of Office of Cooperation with King
+Abdullah University (KAUST)}  \hfill Nov. 2008- Jul. 2012
+
+\begin{itemize}
+
+\item Established cooperation avenues between King Fahd University of Petroleum and Minerals (KFUPM) and King Abdullah University of Science and Technology (KAUST). Collaboration avenues include joint research projects, Faculty visits and sabbatical leaves, student exchange, joint student supervision, and shared-use of experimental and computational facilities.
+
+
+%\item Helped establish a dedicated 1 Giga bps link between KFUPM and KAUST that will constitute the backbone of the Saudi Arabian Research and Educational Network (SAAREN). Used the network to Connect the two campuses through a dedicated Video Conferencing Unit.
+
+
+% including lab
+%development and graduate admission committees.
+
+\end{itemize}
+
+
+\vspace{5pt} {\bfs Associate Professor,} \emph{King Fahd University
+of Petroleum and Minerals, Saudi Arabia} \hfill  Oct. 2009-present \\
+{\bfs Assistant Professor,} \emph{King Fahd University
+of Petroleum and Minerals, Saudi Arabia} \hfill  Apr. 2005-Oct. 2009
+
+\begin{itemize}
+
+\item Teaching Electric Circuit Analysis, Analog and Digital
+Communications, Probability and Random Variables, Communication Networks, Senior Project Design,
+Enhancing Study Skills, Digital Communications (graduate), Adaptive
+Filtering and Applications (graduate), Stochastic Processes
+(graduate), and Compressed Sensing (graduate).
+
+\item Carrying out research in adaptive filtering, channel
+estimation, iterative receiver design, multiuser communication,
+compressive sensing, and seismic signal processing.
+
+\item Serving on various academic committees.
+% including lab
+%development and graduate admission committees.
+
+\end{itemize}
+
+\vspace{5pt} {\bfs Fulbright Scholar,} \emph{University of Southern California (USC),} CA, Prof. Giuseppe Caire \hfill  Feb. 2008-Sep. 2008\\
+\hspace{2.8cm} \emph{California Institute of Technology,} CA, Prof.
+Babak Hassibi
+
+\begin{itemize}
+
+\item Devised techniques for impulsive noise estimation and
+cancelation in OFDM using compressive sensing.
+
+\item Presented a unified approach for evaluating the distribution
+of indefinite quadratic forms in Gaussian variables.
+
+\item Devised a blind technique for data recovery in OFDM
+transmission.
+
+
+\end{itemize}
+
+
+
+
+
+
+
+\vspace{5pt} {\bfs Research Associate,} \emph{California Institute
+of Technology,} CA,  Prof. Babak Hassibi \hfill  Jan - Aug, 2005 \\
+\hfill Summer, 2006
+\begin{itemize}
+
+\item Characterized scaling laws for the capacity of broadcast
+multi-user wireless channels that employ  multiple antennas with
+spatial correlation.
+
+\item Characterized the scaling laws of group broadcast channels
+in the narrow-band and wideband cases. Scaling was applied to the
+number of users, antennas, and channels.
+
+\end{itemize}
+
+%\newpage
+\vspace{5pt} {\bfs Design Engineer,} \emph{Beceem Communications,}
+Santa Clara, CA, Dr. Erik Lindskog \hfill Summer, 2004
+\begin{itemize}
+
+\item Worked with a team of experts on designing, implementing,
+and testing the physical layer part of the WiMAX Standard IEEE
+802.16e for broadband wireless metropolitan access networks.
+Specifically, worked on designing and evaluating space-time codes,
+pilot training schemes, and channel estimation algorithms.
+
+\item Successfully implemented and evaluated various space-time
+coding schemes using 2,3, and 4 antennas at the base station. The
+work resulted in 5 proposals to the IEEE 802.16e standard body (2
+of which were voted into the standard).
+
+\item Designed training schemes to improve the operation of the
+space-time mode of the IEEE 802.16e standard. This resulted in 2
+contributions to the IEEE 802.16e standard, one of which was voted
+in.
+
+\item Worked with a team of experts to design and implement
+channel estimation and tracking algorithms for the IEEE 802.16e
+standard. Came up with a computationally efficient method for
+channel estimation and tracking in the frequency domain.
+
+
+\end{itemize}
+
+
+
+
+
+\vspace{5pt} {\bfs Graduate Assistant,} \emph{Stanford University,}
+CA, Prof. Arogyaswami Paulraj \& Prof. Ali Sayed \hfill 1998-2004
+\begin{itemize}
+\item \underline{Channel estimation and equalization:} Developed
+adaptive/iterative algorithm for MIMO channel estimation and data
+detection. Algorithm is able to cope with rapidly time-variant
+frequency-selective channels by making a collective use of the
+structure underlying the communication problem. Algorithm minimizes
+training overhead and is able to perform recovery with no latency,
+thus minimizing storage requirements and lending itself to real-time
+applications. Various stages of the algorithm make use of dynamic
+programming and so can be efficiently implemented using dedicated
+hardware.
+
+\item \underline{Performance analysis of adaptive algorithms:}
+Performed a unified analysis of a large class of adaptive
+algorithms. Analysis unifies and extends earlier analysis
+approaches; is able to predict stability and learning behavior of
+many adaptive algorithms very accurately. It allows the user to
+choose the adaptive algorithm best suited for a given application;
+applies regardless of type of nonlinearity employed in the
+algorithm and irrespective of the color or statistics of data
+driving the adaptive algorithm.
+
+%\item \underline{Design under uncertainty:} Developed
+%least-squares algorithms that are robust to data uncertainty.
+%Algorithm can deal with additive and multiplicative uncertainty
+%and can incorporate structure of uncertainty to enhance
+%performance. Algorithms is applied to fusion of data arriving from
+%a distributed network of sensors. Also developed adaptive
+%algorithms with enhanced performance given statistical information
+%about the noise.
+
+\end{itemize}
+
+
+\vspace{5pt} {\bfs Design Engineer,} \emph{National
+Semiconductor,} Santa Clara, CA, Dr. Ahmad Bahai \hfill Summer, 2001\\
+\hfill Winter, 2002
+\begin{itemize}
+%\item Designed an OFDM receiver for time-variant frequency\\
+%selective channels
+\item Designed blind/semi-blind iterative algorithms for
+channel/data recovery for transmission over rapidly time-variant
+frequency-selective channels. Algorithm performs channel and data recovery
+with no latency while minimizing storage overhead. Work resulted
+in one patent, 2 journal articles, and 6 conference publications.
+
+
+%
+%Developed and implemented receiver designs for wireless LAN's.
+%\item Designed blind iterative algorithm for channel/data recovery
+%overy rapidly time-variant wireless channels. Algorithm used for
+%reception in wireless local area networks. \item algorithms
+%perform channel and data recoevery with no latency while
+%minimizing latency and storage overhead. \item Algorithms
+%developed make full use of the underlying structure \item Are able
+%to cope with time-variant, frequency-selective channels \item
+%Operate with zero latency making them ideal for real-time
+%applications \item Operate with zero latency thus requiring
+%minimal storage requirements \item Make full use of the underlying
+%structure thus minimizing training overhead \item Various stages
+%of algorithms are implemented using dynamic programming making
+%them amenable to dedicated hardware \item Work resulted in 2
+%journal and 6 conference publications in addition to one patent.
+\end{itemize}
+
+\vspace{5pt} {\bfs Research Scholar,} \emph{University of California
+at Los Angeles (UCLA)}, CA, Prof. Ali Sayed
+\hfill Summer, 1999\\
+\begin{itemize}
+
+\item Designed least-squares algorithm that combines, in an
+optimal manner, data arising from a finite collection of uncertain
+models. The algorithm can take into account data uncertainties
+with different sophistication levels. The algorithm demonstrated
+improved performance when it was applied to fusion of data
+arriving from a distributed network of sensors with varying
+degrees of reliability. The Algorithm was also applied to
+diversity combining of signals in the presence of microscopic or
+macroscopic fading.
+
+\item Developed adaptive algorithm with optimum error nonlinearity
+in the adaptation equation. Nonlinearity is a function of the pdf
+of the additive noise. Algorithm attains a lower steady-state
+error compared with adaptive algorithms employing other
+nonlinearities. Research resulted in 4 conference publications.
+
+
+\end{itemize}
+%\newpage
+
+\vspace{5pt} {\bfs Summer Intern,} \emph{NEC Central Research Labs}
+Tokyo, Japan, Dr. Akihiko Sugiyama \hfill Summer, 98
+\begin{itemize}
+\item Carried out research on critically sampled filter banks.
+Designed and implemented a wide-band multirate acoustic echo
+canceller.
+\end{itemize}
+
+\vspace{5pt} {\bfs Graduate Assistant,} \emph{Georgia Institute of
+Technology,} GA, Prof. Guo Tong Zhou   \hfill 1997-98
+\begin{itemize}
+
+\item Studied and analyzed algorithms for harmonic retrieval in
+the presence of additive and multiplicative noise. Algorithms use
+cyclostationary properties to recover harmonic frequencies and
+amplitudes from output data only, and are robust to the effect of
+noise regardless of its statistics.
+\end{itemize}
+
+%\vspace{5pt} {\bfs Graduate Assistant,}\emph{ King Fahd
+%University of Petroleum and Minerals,} Prof. Mua'amar Betayyeb, \hfill 1993--97\\
+%\begin{itemize}
+%\item Proposed, analyzed, and tested a set of adaptive algorithms
+%for echo cancellation. Algorithms lend themselves to cancellation
+%of echoes produced by long and sparse channels. Derived adaptive
+%algorithm with optimum nonlinearity in the update equation;
+%proposed algorithm subsumes several existing algorithms as special
+%cases.
+%
+%\item Coordinated and instructed the electromagnetics,
+%communications, and telephony labs. Work involved preparing
+%experiments, problem sets, and exams. Guided students, monitored
+%and evaluated their performance. Got consistently excellent
+%evaluations from students. \end{itemize}
+
+
+%======================================================================
+\vspace{8pt}{\bfs TEACHING} \vspace{5pt}\\
+
+Taught 6 undergraduate courses and a graduate courses
+
+\begin{enumerate}
+
+\item PYP 003: Enhancing Study Skills (Fall 2005, Fall 2006, Spring 2006)
+
+\item EE 201:  Electric Circuits (Fall 2005, Fall 2008, Fall 2009)
+
+\item EE 315:  Probability and Random Variables (Spring 2009)
+
+\item EE 370:  Communications Engineering (Fall 2005, Fall 2006, Spring 2006)
+
+\item EE 400:  Communications Networks (Fall 2007)
+
+\item EE 411:  Capstone Project Design (Fall 2005, Spring 2005)
+
+\item EE 570:  Stochastic Processes (Fall 2008)
+
+\item EE 571:  Digital Communications (Spring 2006, Fall 2007)
+
+\item EE 662:  Adaptive Filters and Applications (Spring 2006, Spring 2010, Spring 2012)
+
+\item EE 242 (KAUST):  Digital Communications and Coding (Fall 2009, Fall 2012, Fall 2013, Fall 2014)
+
+%\item EE 242 (KAUST):  Digital Communications and Coding (Fall 2009)
+\item EE 341 (KAUST): Information Theory (Spring 2015)
+\item EE 392A (KAUST): Special Topics in Signal Processing (Compressed Sensing) (Spring 2012, Spring 2013)
+
+\end{enumerate}
+
+
+%\vspace{8pt}{\bfs RESEARCH INTERESTS} \vspace{5pt}\\
+%
+%\begin{description}
+%
+%\item[Multi-user Information Theory:] Scaling laws of multiple antenna (group) broadcast
+%channels for large number of uses and/or antennas; techniques for
+%enhancing the performance of broadcast channels with limited feedback.
+%
+%\item[Channel Estimation and Equalization for MIMO OFDM:] Modeling and estimation of MIMO time-variant channels;
+%Adaptive/iterative algorithms for MIMO channel estimation and data
+%detection in OFDM transmission; Parameter reduction techniques for
+%intercarrier interference cancelation in OFDM and for channel
+%estimation in multiple access OFDM; Using a priori information for
+%blind channel estimation and data detection in OFDM.
+%
+%\item[Adaptive Filtering Analysis and Design:] Unified mean-square analysis of adaptive
+%filters; exact mean-square analysis of normalized least mean-squares
+%adaptive algorithms; Adaptive Filters with optimum nonlinearities;
+%Fast recursive least squares filters.
+%
+%\item[Applications of Compressive Sensing:] Using compressive
+%sensing for detection and cancelation of impulsive noise in OFDM and
+%for peak to average ratio reduction in OFDM systems; using
+%compressive sensing for reducing feedback and improving the
+%efficiency in multiuser systems.
+%
+%
+%\item[Statistical Characterization of Some Random Quantities:]
+%Using the characteristic function to study the scaling behavior of
+%i.i.d random variables; Characterizing the behavior of indefinite
+%quadratic norms in Gaussian and isotropic random variables.
+%
+%\end{description}
+
+%\newpage
+%\vspace{8pt}{\bfs RESEARCH COLLABORATORS} \vspace{5pt}\\
+%
+%\begin{enumerate}
+%
+%\item Ali H. Sayed, Professor and Department Chair, Electrical Engineering Department, {\em University of
+%California at Los Angeles (UCLA),} CA, USA
+%
+%
+%\item Arogyaswami Paulraj, Professor, Information Systems Laboratory
+%(ISL), {\em Stanford University,} CA, USA
+%
+%\item Thomas Kailath, Professor Emeritus, Information Systems Laboratory (ISL), {\em Stanford
+%University,} CA, USA
+%
+%
+%\item Babak Hassibi, Professor, Electrical Engineering Department,  {\em California Institute of
+%Technology,} CA, USA
+%
+%\item Giuseppe Caire, Professor, Electrical Engineering Department, {\em University of
+%Southern California (USC),} CA, USA
+%
+%\item Naofal M Al-Dhahir, Professor, Electrical Engineering Department, {\em
+%University of Texas at Dallas,} TX, USA
+%
+%\item Masoud Sharif, Assistant Professor, Electrical and Computer Engineering
+%Department, {\em Boston University,} MA, USA
+%
+%\item Amir Dana, Senior Research  Engineer, {\em Qualcomm Inc.,} San
+%Diego, CA, USA
+%
+%\item Ahmad Bahai, Fellow and Chief Technologist, {\em National Semiconductor,} Santa Clara, CA, USA
+%
+%\item Mérouane Debbah, Professor, Electrical Engineering Department,
+%{\em Ecole Supérieure d'Electricité (Supélec),} Paris, France
+%
+%
+%\item Ricardo Merched, Assistant Professor, Electrical Engineering Department, {\em  Federal University of Rio de Janeiro,} Brazil
+%
+%\item Vitor H. Nascimento, Associate Professor, Electronic Systems Engineering Department, {\em
+%University of Sao Paulo,} Brazil
+%
+%\item Marios Kountouris, Assistant Professor, Electrical Engineering Department,
+%{\em Ecole Supérieure d'Electricité (Supélec),} Paris, France
+%
+%
+%\item Ghazi Al-Rawi, Electrical Engineering Department, {\em King
+%Abdulaziz University,} Saudi Arabia
+%
+%\item Mohammad Moinuddin, Electrical Engineering Department, {\em Hafr Al-Batin Community College,} Saudi
+%Arabia
+%
+%\item Azzedine Zerguine, Associate Professor, Electrical Engineering Department,  {\em King Fahd
+%University of Petroleum \& Minerals,} Saudi Arabia
+%
+%
+%\end{enumerate}
+
+%\vspace{8pt}{\bfs PUBLICATIONS} \vspace{5pt}\\
+%
+%My publications include two theses, two book chapters, 4 filed
+%patents, 20 submitted/accepted/published journal papers, 36
+%conference papers, and nine standard contributions.
+%
+%
+%\vspace{8pt}{\bfs PROJECTS} \vspace{5pt}\\
+%
+%I have 11 funded projects. One of these projects is funded jointly
+%by King Fahd University of Petroleum and Minerals and a university
+%in Europe, four projects are funded by King Abdulaziz City of Science
+%and Technology, one project is funded by a consortium composed
+%of Saudi ARAMCO, Schlumberger, and SRAK and another by Saudi Telecommunication Company.
+%The remaining six projects are internally funded.
+%
+%
+%\vspace{8pt}{\bfs TALKS} \vspace{5pt}\\
+%
+%I have given 33 talks in universities and companies in the Middle
+%East, Europe, and the USA.
+
+
+%\newpage
+\vspace{8pt}{\bfs GRADUATE STUDENTS \& POST DOC's} \vspace{5pt}\\
+
+
+{\bfs M.S. Students}
+\begin{enumerate}
+
+\item Ahmed Abdul Quadeer,
+KFUPM, Sep 2006 -- Jun 2008\\
+Thesis: ``(Semi) blind channel and data recovery in OFDM''\\
+Current Position: PhD student, HKUST, Hong Kong.
+
+\item Muhammad Saqib Sohail,
+ KFUPM, Sep 2006 -- Jun 2008\\
+ Thesis: ``Adaptive algorithms for channel estimation: Using a priori information for optimal design''\\
+Current Position: PhD student, HKUST, Hong Kong.
+
+\item Babar Khan,
+ KFUPM, Sep 2007 -- Dec 2009\\
+ Thesis: ``Application of random matrix theory in wireless communications and seismic signal processing''\\
+Current Position: Saudi Aramco.
+
+\item Ebrahim Al-Safadi,
+KFUPM, Sep 2008 -- May 2010\\
+Thesis: ``Applications of compressive sensing for PAPR reduction in OFDM''\\
+Current Position: PhD student, University of Southern California, USA.
+
+\item Alaa Dahman,
+KFUPM, Feb 2008 -- Jun 2010\\
+Thesis: ``Low complexity blind equalization of SISO systems with general constellations''\\
+Current Position: IBM Saudi Arabia.
+
+\item Syed Faraz Ahmed,
+KFUPM, Sep 2008 -- Feb 2011\\
+Thesis: ``Novel compressive sensing techniques for channel estimation and deconvolution in UWB''\\
+Current Position: Research Institute, KFUPM.
+
+\item Syed Rizwanullah Hussaini,
+KFUPM, Feb 2009 -- Jun 2012\\
+Thesis: ``(Semi) blind seismic deconvolution using orthogonal clustering''\\
+Current Position: Research Institute, KFUPM.
+
+\item Damilola Sadiq Owodunni,
+KFUPM, Sep 2010 -- Jun 2012\\
+Thesis: ``Compressed Sensing Based Techniques for Estimation and Cancelation of Transmitter’s Nonlinear Distortions in OFDM Systems''\\
+Current Position: Saudi Telecom (STC) R\&D, Riyadh, Saudi Arabia.
+
+\item Abdullatif Al-Rabah,
+KAUST, May 2012 -- May 2013\\
+Thesis: ``A Bayesian approach to PAPR reduction in oversampled OFDM''\\
+Current Position: Saudi Telecom (STC) R\&D, Riyadh, Saudi Arabia.
+
+\item Hussain Shibli,
+KAUST, May 2012 -- May 2013\\
+Thesis:  ``Compressed Sensing Based Approach to feedback reduction in broadcast and relay channels''\\
+Current Position: Researcher, King Abdullah City for Atomic and Renewable Energy, Riyadh, Saudi Arabia.
+
+\item Khaled Al Hujaili,
+KFUPM, Sep 2012 -- Jan 2014\\
+Thesis: ``Majorization Properties of Adaptive Filters''\\
+Current Position: Lecturer, Taibah University, Al-Madinah, Saudi Arabia.
+
+\item Majeed Khaqan,
+KFUPM, Feb 2013 -- May 2014\\
+Thesis:  ``Localization of Indoor Wirless Signals''\\
+Current Position: Lab Instructor, Prince Mohammad Bin Fahd University (PMU), Al-Khobar, Saudi Arabia.
+
+\item Anum Ali,
+KFUPM, Sep 2012 -- Jun 2014\\
+Thesis:  ``Combating Impairments in OFDM Systems''\\
+Current Position: Research Engineer, KAUST, Saudi Arabia.
+
+\item Abdallah Moubayed, KAUST, Sep 2012 – May 2014 \\
+Thesis: ``Collaborative Multi-Layer Network Coding for Hybrid Cellular Cognitive Radio Networks"\\
+Current position: PhD student, University of Western Ontario, Canada
+
+
+\item Shamail Al-Shuhail, KAUST, Feb 2013 -- Jun 2015\\
+Thesis: ``Compressed Sensing for PAPR Reduction and NBI Cancellation''.
+
+
+\item Taha Bouchoucha, KAUST, Sep 2013 -- Sep.2015 \\
+
+Thesis: ``Waveform design for plannar MIMO radar''
+
+
+\item Syed Awais Wahab Shah, KFUPM, Mar 2014 -- Dec 2015\\
+Thesis: ``Blind Deconvolution of MIMO Systems''.
+
+
+
+
+\end{enumerate}
+
+{\bfs Ph.D. Students}
+\begin{enumerate}[resume]
+
+\item Mudassir Masood,
+KAUST, Feb 2012 -- Sep 2015\\
+Thesis: ``Distribution Agnostic Bayesian Estimation of Sparse Signals''.\\
+
+\item Mohammed Eltayeb (co-advised),
+The University of Akron, Sep 2010 -- Oct 2014\\
+Thesis: ``Compressed Sensing for Feedback Reduction in Broadcast and Relay Networks''\\
+Current Position: Postdoc at UT Austin, USA.
+
+
+
+
+\item Alam Zaib,
+KFUPM, Sep 2012 -- present\\
+Thesis: ``Channel Estimation in Massive MIMO''\\
+Expected: Sep 2016.
+
+\item Furrukh Sana,
+KAUST, Sep 2012 -- present\\
+Thesis: ``Tracking of Sparse Signals''\\
+Expected: Sep 2016.
+
+\item Laila Afify,
+KAUST, Sep 2012 -- present\\
+Thesis: ``Stochastic Geometry Modeling of the Uplink in Heterogeneous Networks''\\
+Expected: Sep 2016.
+
+
+\item Hussain Ali,
+KFUPM, Apr 2013 -- present\\
+Thesis: ``Application of Compressed Sensing to MIMO Radar''\\
+Expected: Apr 2017.
+
+\item Omer Mahmoud Elhag,
+KFUPM, Jan 2013 -- present\\
+Thesis: ``Synthetic Aperture Radar''\\
+Expected: Jan 2017.
+
+ \item Mohammad Tamim Alkhodary,
+KFUPM, June 2014\\
+Thesis: ``Performance of Coded Channel Estimation for Ultra-Wideband M-ary Multiple Access Communications'' \\
+Expected: Oct 2016.
+
+\item Khalil Elkhalil,
+KAUST, Sep 2013 -- present - (MS/PhD) \\
+Thesis: ``Feedback Reduction in Relay Networks''.
+
+\item Ahmed Douik, KAUST, Sep 2013-present - (MS/PhD) \\
+Thesis: ``Design and Optimization of (Distributed) Network Coding"
+
+
+
+
+\item Oussama Dhifallah,
+KAUST, Aug 2014 -- present - (MS/PhD) \\
+Thesis ``Optimization of Heterogeneous Networks''
+
+\item Mohamed Suliman, KAUST, Sep. 2014-present - (MS/PhD) \\
+Thesis: ``UWB Multiuser Communication"
+
+\end{enumerate}
+
+{\bfs Postdoc's}
+\begin{enumerate}[resume]
+
+%\item Habti Abeida,
+%KFUPM, Oct 2009 -- Oct 2010\\
+%Current Position:
+
+\item Mohammed F. A. Ahmed,
+KAUST, Apr 2012 -- Feb 2014\\
+Current Position: Postdoctoral Fellow, {\'E}cole de technologie sup{\'e}rieure (ETS) in Montreal, Canada.
+
+\item Sameh Sorour,
+KAUST, Sep 2012 -- Aug 2013\\
+Current Position: Assistant Professor, KFUPM, Saudi Arabia.
+
+%\item Saleh AlJazzar,
+%KAUST, Sep 2012 -- Sep 2013\\
+%Current Position: Assistant Professor, AlZaytoonah University of Jordan, Amman, Jordan.
+%
+%\item Umar Rashid,
+%KAUST, May 2013 -- Dec 2013\\
+%Current Position: Assistant Professor, UET, Lahore, Pakistan.
+
+\item Tarig Ahmed,
+KAUST, Sep 2012 -- present
+
+\item Sian Jheng,
+KAUST, Apr 2014 -- present.
+
+\item Hayssam Dahrouj,
+KAUST, Apr 2014 -- present.
+\end{enumerate}
+
+{\bfs Visiting Students}
+\begin{enumerate}[resume]
+
+\item Nizar Ajeeb, American University in Beirut, Lebanon\\
+Sep 2012 -- Dec 2012.
+
+\item Ankit Udai, Indian Institute of Technology, India\\
+May 2014 -- Jul 2014.
+
+\item Ahmed Douik, Sup’Com, Tunis, Tunisia\\
+Feb 2013 -- Jun 2013.
+
+\item Taha Bouchoucha, Sup’Com, Tunis, Tunisia\\
+Feb 2013 -- Jun 2013.
+
+\item Oussama Dhifallah, Sup’Com, Tunis, Tunisia\\
+Feb 2014 -- Jun 2014.
+
+\item Mohammad Tamim Alkhodary, KFUPM, KSA\\
+Jun 2014 -- Aug 2014.
+
+\item Syed Awais Wahab Shah, KFUPM, KSA\\
+Jun 2014 -- Aug 2014.
+
+%\item Tabish Qaseem, Visitor from {\em Advanced Electronics
+%Company,} Riyadh, Saudi Arabia, Research Topic ``Using compressive
+%sensing techniques for feedback reduction in broadcast channels"
+
+\end{enumerate}
+
+
+\vspace{8pt}{\bfs SERVICE} \vspace{5pt}\\
+
+%\vspace{3pt} {\bfs 1) Committees}
+%
+%\begin{itemize}
+%
+%\item Scientific Research Committee (2009-2010)
+%\item Collaboration with KAUST Committee (2008-2009)
+%
+%\item Faculty Search Committee (Chair) (2008-2009)
+%
+%\item University Research Advisory Committee (2007-2008)
+%\item Text-Book University Committee (2006-2007)
+%\item Dhahran Techno Valley Steering Committee (2006-2009)
+%\item E-Learning Committee (2006-2007, 2007-2008)
+%
+%\item Department Teaching Award Committee (2005-2006)
+%
+%\item Department Labs' Development Committee (2005-2006)
+%
+%\item Department Graduate Admissions Committee (2005-2006, 2006-2007)
+%
+%\item Department Research Committee (2006-2007)
+%
+%\item ABET Accreditation Committee (2006-2007, 2007-2008)
+%
+%\end{itemize}
+%
+%\vspace{3pt} {\bfs 2) IEEE Activities}
+
+\begin{itemize}
+\item Executive member of IEEE Education Society, Gulf Section (2007-2012)
+
+\item IEEE KFUPM Student Branch Counselor (2007-2012)
+
+%\item Organizer of the IEEE Ideas Challenge Contest (sponsored by Saudi ARAMCO and the IEEE Education Society)
+
+\item Associate Editor for IEEE Transactions on Signal Processing (Aug 2013 - present)
+
+\item Reviewer for
+\begin{itemize}
+\item IEEE Transactions Signal Processing
+\item IEEE Transactions on Communications
+\item IEEE Transactions on Wireless Communications
+\item IEEE Transactions on Selected Areas in Communications
+\item IEEE Transactions on Vehicular Technology
+\item IEEE Signal Processing Letters
+\item IEEE Communication Letters
+
+\end{itemize}
+\end{itemize}
+
+%======================================================================
+\vspace{8pt} {\bfs AWARDS} \vspace{5pt} \\
+\begin {itemize}
+\item Best paper award in SmallNets'2015 workshop organized in conjunction with  {\em IEEE International Conference on Communications (ICC'2015)}, London, UK.
+
+\item Almarai Award for Innovative Research in Communications \hfill 2009
+
+\item IEEE Education Society Chapter Achievement Award (Presented to the Gulf Chapter Officers) \hfill 2008
+
+\item Fulbright Scholar, Electrical Engineering Department,
+University of Southern California (USC) \hfill 2008 \item Best
+student paper award, IEEE-EURASIP workshop on nonlinear signal and
+image processing \hfill 2001 \item Recipient of Saudi scholarship
+for graduate studies at Georgia Institute of Technology and Stanford \hfill 1997
+%\item Recipient of Monbusho scholarship for PhD studies at Tokyo
+%Institute of Technology, Japan \hfill 1996
+\item Graduated with highest honors in Bachelor's degrees \hfill 1994
+%\item Candidate for the scientific excellence prize in mathematics (1992)
+\end {itemize}
+
+
+
+%======================================================================
+%\vspace{8pt} {\bfs EXTRACURRICULAR  ACTIVITIES} \vspace{5pt} \\
+%\begin{itemize}
+%\item Member of the Toast Masters Club, Dhahran, Saudi Arabia
+%\hfill 2005-2008 \item Student of improvisational theater in San
+%Francisco and Los Angeles\hfill 2003-2006 \item Member of the
+%Stanford Debate Team \hfill 2004-2005 \item Oral Communication
+%Tutor, Center for Teaching and Learning, Stanford University \hfill
+%2003 \item Member of the Stanford University Committee on Research
+%\hfill 2000-2001 \item Co-organizer of the First Global
+%Entrepreneurial Challenge Stanford, \hfill 2000
+%\end{itemize}
+%
+
+
+
+
+
+
+
+
+
+
+
+
+%======================================================================
+%\vspace{8pt}{\bfs BUSINESS COURSES} \vspace{5pt}
+
+%New venture formation, decision analysis, global entrepreneurial
+%marketing, interpersonal
+%dynamics, \\human behavior and organization, negotiations, high performance leadership\\
+
+%======================================================================
+%\vspace{8pt}{\bfs TECHNICAL COURSES} \vspace{5pt}
+%\\ Adaptive and wireless
+%communications, multiuser transmission systems, information theory
+%and coding, blind multichannel identification and equalization,
+%computer networks, statistical signal processing, linear
+%estimation, multidimensional signal processing, speech processing,
+%number theory, linear and nonlinear programming, matrix calculus,
+%convex optimization
+
+%\newpage
+
+
+
+
+
+
+
+
+
+%%======================================================================
+%\vspace{8pt} {\bfs PERSONAL INFORMATION}
+%\begin{itemize}
+%%\vspace{0.1in}
+%\item Strong communication skills
+%%\vspace{0.05in}
+%\item Enjoy outdoor activities such as hiking, cycling and
+%windsurfing.
+%%\vspace{0.05in}
+%\item Love learning new theories to solve real problems.
+%\end{itemize}
+%%======================================================================
+
+%\iffalse
+
+%\vspace{8pt} {\bfs SELECTED PUBLICATIONS}
+%\begin{trivlist}
+%
+%\item[] L.\ Xiao, M.\ Johansson, H.\ Hindi, S.\ Boyd, A.\ Goldsmith,
+%Joint Optimization of Communication Rates and Linear Systems.
+%{\em Accepted IEEE Trans. Aut. Contr.}, 2003.
+%
+%\item[] H.\ Hindi, C.\ Seong, S.\ Boyd,
+%Computation of Optimal Uncertainty Models from Frequency Domain Data.
+%{\em To appear Proc.\ IEEE Conf.\ on Decision}, December 2002. {\em Submitted to Automatica}, March 2002.
+%
+%\item[] H.\ Hindi, M.\ Fazel, S.\ Boyd,
+%A Semidefinite Embedding Technique for General Matrix Rank
+%Minimization Problems.
+%{\em Submitted to American Control Conference}, June 2003.
+%
+%\item[] M.\ Fazel, H.\ Hindi, S.\ Boyd,
+%Log-Det Heuristic for Matrix Rank Minimization with Applications to
+%Hankel and Euclidean Distance Matrices.
+%{\em Submitted to American Control Conference}, June 2003.
+%
+%\item[] M.\ Fazel, H.\ Hindi, S.\ Boyd,
+%A Rank Minimization Heuristic with Application to System Approximation.
+%{\em Proc. American Control Conference}, June 2001.
+%
+%\item[] L.\ Xiao, H.\ Hindi, M.\ Johansson, S.\ Boyd,
+%Distributed Active Sensing in the MVE Framework.
+%{\em Presented at the DARPA PI Meeting}, May 2001.
+%
+%\item[] T.\  Par\'{e}, H.\ Hindi, J.\ How, D.\ Banjerdpongchai.
+%Local control design for systems with saturating actuators using the
+%Popov criteria.
+%{\em Proc. American Control Conference}, San Diego, CA, July 1999.
+%
+%\item[] H.\ Hindi, S.\ Boyd.
+%Analysis of linear systems with saturation using convex optimization.
+%{\em Proc.\ IEEE Conf.\ on Decision and Control}, Tampa, FL, December 1998.
+%
+%\item[] H.\ Hindi, B.\ Hassibi, and S.\ Boyd.
+%Multiobjective $H_2/H_\infty$-optimal control via finite dimensional
+%$Q$-parametrization and linear matrix inequalities.
+%{\em Proc. American Control Conference}, Philadelphia, PA, June 1998.
+%
+%\item[] H.\ Hindi, S.\ Boyd.
+%Robust Solutions to $l_1$, $l_2$, and $l_\infty$ Uncertain Linear
+%Approximation Problems using Convex Optimization.
+%{\em Proc. American Control Conference}, Philadelphia, PA, June 1998.
+%
+%\item[] H.\ Hindi, S.\ Prabhakar, J.\ Fox, et al,
+%Design and Verification of Controllers for Longitudinal Oscillations
+%using Optimal Control Theory and Numerical Simulation: Predictions for
+%PEP-II.
+%\emph{Proc. 1997 Particle Accelerator Conference},
+%Vancouver, May 1997.
+%
+%\item[] H.\ Hindi, S.\ Prabhakar, J.\ Fox, et al,
+%Clustering using a Pairwise Nearest Neighbor (PNN) Algorithm.
+%\emph{Technical Report AP-Note-96.26, Stanford Linear Accelerator Center},
+%June 1996.
+%
+%\item[] H.\ Hindi, J.\ Fox et al.
+%Measurement of multi-bunch transfer functions using time-domain data and
+%Fourier analysis.
+%\emph{Fifth Annual Beam Instrumentation Workshop}, 1994.
+%
+%\item[] H.\ Hindi, J.\ Fox et al.
+%A formal approach to the design of multi-bunch feedback systems:
+%LQG controllers.
+%\emph{Fourth European Particle Accelerator Conference}, 1994.
+%
+%\item[] H.\ Hindi, J.\ Fox et al.
+%Analysis of DSP-based longitudinal feedback system: trials at SPEAR and ALS.
+%\emph{Proc. of the International Conf. on Particle Accelerators}, 1993.
+%
+%\item[] H.\ Hindi, W.\ Hosseini, D. Briggs, J.\ Fox, A.\ Hutton,
+%Down Sampled Signal Processing for a B-Factory Bunch-By-Bunch Feedback System.
+%\emph{Proc. Third European Particle Accelerator Conference},
+%Berlin, March 1992.
+%
+%\end{trivlist}
+
+%\fi
+
+%\iffalse
+\newpage
+%======================================================================
+\vspace{8pt}
+{\bfs REFERENCES}
+\begin{trivlist}
+
+\item[] Prof. Ali H. Sayed\\
+        University of California, Los Angeles (UCLA),\\
+        Electrical Engineering Dept., \\
+        Engineering IV,\\
+        Los Angeles, CA 90095-1594 \\
+        Tel: 310-267-2142\\
+        email: sayed@ee.ucla.edu\\
+%        website: http://asl.ee.ucla.edu/\
+\vspace{.3cm}
+
+\item[] Prof. Babak Hassibi\\
+        California Institute of Technology (CalTech),\\
+        Electrical Engineering Dept.,\\
+        1200 East California Boulevard, MS 136-93,\\
+        Pasadena, CA 91125, \\
+        Tel: 626-395-4810\\
+        email: hassibi@caltech.edu\\
+%        website: http://www.systems.caltech.edu/EE/Faculty/babak/\
+\vspace{.3cm}
+
+\item[] Prof. Giuseppe Caire\\
+        University of Southern California (USC),\\
+        Department of Electrical Engineering,\\
+        EEB 528, 3740 McClintock Ave,\\
+        Los Angeles, CA 90089\\
+        Tel: 213-740-4683\\
+        email: caire@usc.edu\\
+ %       website: http://ee.usc.edu/faculty-staff/faculty-directory/caire.htm \\
+\vspace{.3cm}
+
+\item[] Prof. Arogyaswami Paulraj \\
+        Stanford University,\\
+        Electrical Engineering Dept.,\\
+        Packard 232, 350 Serra Mall,\\
+        Stanford, CA 94305\\
+        Tel: 650-723-0002\\
+        email: apaulraj@stanford.edu\\
+%        website: http://www.stanford.edu/~apaulraj/ \\
+\vspace{.3cm}
+
+\item[] Prof. Naofal Al-Dhahir, \\
+        The University of Texas at Dallas,\\
+        Electrical Engineering Department,\\
+        PO Box 830688, Mail Station EC 33,\\
+        800 W. Campbell Road,\\
+        Richardson, TX 75083-0688\\
+        Tel : 972-883-4614\\
+        email: aldhahir@utdallas.edu\\
+%        website: http://www.utdallas.edu/~aldhahir/ \\
+\vspace{.3cm}
+
+\item[] Prof. Merouane Debbah\\
+       SUPELEC,\\
+       Alcatel-Lucent Chair on Flexible Radio,\\
+       3 rue Joliot-Curie,\\
+       91192 GIF SUR YVETTE CEDEX,\\
+       France\\
+       Tel: +33-169-851-447\\
+       email: merouane.debbah@supelec.fr\\
+ %      website: http://www.supelec.fr/flexible-radio-chair.html
+
+\end{trivlist}
+
+\vspace{8pt}{\bfs THESES} \vspace{5pt}\\
+
+\begin{enumerate}
+
+\item T. Y. Al-Naffouri, ``Adaptive algorithms for wireless
+channel estimation," Department of Electrical Engineering, Stanford
+University, Jan. 2005.
+
+
+\item T. Y. Al-Naffouri, ``Adaptive filtering using the least-mean
+mixed-norms algorithm and its application to echo cancellation,"
+Department of Electrical Engineering, King Fahd University, Jul.
+1997.
+
+
+\end{enumerate}
+
+\vspace{8pt}{\bfs BOOK CHAPTERS} \vspace{5pt}\\
+
+\begin{enumerate}
+
+\item T. Y. Al-Naffouri, M. S. Saqib, and A. A. Quadeer, ``Iterative forward-backward
+Kalman filtering for data recovery in (multiuser) OFDM
+communications,"  {\em Applications of Kalman Filters,} Intech
+, May 2010.
+
+
+\item A. H. Sayed, T. Y. Al-Naffouri,  and Vitor H. Nascimento
+``Energy conservation in adaptive filtering," {\em Nonlinear Signal
+and Image processing: Theory, Methods, and Applications,} CRC Press,
+2003.
+
+\item Ahmed Douik, Hayssam Dahrouj, Oussama Dhifallah, Tareq Y. Al-Naffouri, and Mohamed-Slim Alouini,  ``Coordinated Scheduling in C-RANs" {\em in Cloud Radio Access Networks: Principles, Technologies, and Applications,} Cambridge University Press, 2017.
+\end{enumerate}
+
+
+
+\vspace{8pt}{\bfs JOURNAL PUBLICATIONS} \vspace{5pt}\\
+
+
+\begin{etaremune}
+    \input{meta_files/AllJournalPublications.txt}
+
+\end{etaremune}
+
+
+
+\vspace{8pt}{\bfs CONFERENCE PUBLICATIONS} \vspace{5pt}\\
+
+\begin{etaremune}
+    \input{meta_files/AllConferencePublications.txt}
+
+\end{etaremune}
+
+
+
+\vspace{8pt}{\bfs PATENTS} \vspace{5pt}\\
+
+
+\begin{enumerate}
+\item T. Y. Al-Naffouri and A. A. Quadeer, {\em  Structure-based Bayesian sparse reconstruction,} US patent submitted.
+
+\item K. Majeed, S. Sorour, T. Y. Al-Naffouri, S. Valaee, {\em RSS-Based Indoor Localization with No Deployment nor Update Efforts,} US patent submitted.
+
+\item Muzammil Behzad,  Mudassir Masoud, Tarig Ballal, Maha Shadaydeh, Tareq Y. Al-Naffouri  {\em Image Denoising via Collaborative Support-Agnostic Recovery,} U.S. Patent Application filed.
+
+\item  Furrukh Sana, Tarig Ballal, T. Y. Al-Naffouri and Ibrahim Hoteit, {\em System and Method for Non-invasive Extraction of Electrocardiogram Signals,} U.S. Patent Application no. 62/433,504 filed on 13 Dec. 2016.
+
+\item Rabe Arshad, Hesham ElSawy, Sameh Sorour, Tareq Y. Al-Naffouri, and Mohamed-Slim Alouini, {\em Reducing Handover Signaling in Dense Cellular Networks through Base Station Skipping,} provisionally filed in US Patent office, March 2016.
+
+\item Furrukh Sana, Tarig Ballal, T. Y. Al-Naffouri and Ibrahim Hoteit, {\em Apparatus and Method for Wireless Monitoring Using Ultra-Wideband Frequencies,} U.S. Patent 9,532,735 issued on Jan. 3rd 2017.
+
+\item Ahmed Syed Faraz, and Tareq Yousuf Al-Naffouri {\em Low-Complexity Method for Estimating Impulse-Radio UWB Wireless Channels,} U.S Patent 9,450,786, issued September 20, 2016.
+
+\item Anum Ali, Damilola S. Owodunni, Oualid Hammi, T. Y. Al-Naffouri, {\em System and Method for Joint Compensation of Power Amplifier's Distortion,} U.S Patent 9,137,082, filed February 27, 2014, and issued September 15, 2015.
+
+\item Zahid Saleem, Samir Alghadhban, and T. Y. Al-Naffouri {\em  Peak Detection Method Using Blind Source Separation,} U.S Patent 8,958,750, filed September 12, 2013, and issued February 17, 2015.
+
+\item Ebrahim A-Safadi and T.Y. Al-Naffouri, {\em Method of Performing Peak Reduction and Clipping Mitigation,} Patent publication number US 2014/8804862, USPTO.
+
+\item T. Y. Al-Naffouri, N. Al-Dhahir, and M. S. Sohail, {\em OFDM inter-carrier interference cancelation method,} Patent publication number US 2011/0206148 A1, USPTO.
+
+\item T. Y. Al-Naffouri, E. B. Al-Safadi, and M. E. Eltayeb, {\em OFDM Peak-to-Average Power Ratio Reduction Method,} Patent publication number US 8483296 B2, USPTO.
+
+\item T. Y. Al-Naffouri, N. Al-Dhahir, and M. S. Sohail, {\em Method for mitigating interference in OFDM communications systems,} Patent publication number US 2011/0206148 A1, USPTO.
+  	
+\item G. Caire, T. Y. Al-Naffouri, and A. A. Quadeer, {\em Method of estimating and removing noise in OFDM systems,} Patent publication number U.S. 8213525, USPTO.
+
+\item T. Y. Al-Naffouri and A. A. Quadeer, {\em Cylic prefix-based enhanced data recovery method,} Patent publication number U.S. 8194799, USPTO.
+
+\item G. Alrawi, A. Bahai, T. Y. Al-Naffouri, and J. Cioffi, {\em Coded OFDM system using error control coding and cyclic prefix for channel estimation,} US Patent No. 7,633,849.
+
+\end{enumerate}
+
+
+
+\vspace{8pt}{\bfs STANDARD PROPOSALS} \vspace{5pt}\\
+
+\begin{enumerate}
+
+\item Erik Lidskog et. al., ``Enhancement to space-time codes for
+3 transmit antennas for the OFDMA PHY," Seoul, South Korea, Aug.
+2004 ({\em accepted and incorporated into the IEEE 802.16e
+Standard})
+
+
+\item Erik Lidskog et. al., ``Enhancements of the 4 transmit
+antenna rate 1 space-time code for the OFDMA PHY," Seoul, South
+Korea, Aug. 2004.
+
+
+\item Erik Lidskog et. al., ``Enhancements to 4 transmit antenna
+rate 2 space-time codes for the OFDMA PHY," Seoul, South Korea, Aug.
+2004.
+
+\item Erik Lidskog et. al., ``Modified pilot allocation for
+downlink STC PUSC," Seoul, South Korea, Aug. 2004.
+
+\item Erik Lidskog et. al., ``Fast link adaptation feedback,"
+Seoul, Korea, Aug. 2004.
+
+\item Erik Lidskog et. al., ``Modification to open-loop MIMO
+precoding," Seoul, South Korea, Aug. 2004.
+
+
+\item Erik Lidskog et. al., ``Modified pilot allocation for AMC
+and optional PUSC uplink subchannels for STC mode," Portland, OR,
+Jul. 2004.
+
+\item Erik Lidskog et. al., ``Enhancements of space-time codes for
+the OFDMA PHY," Portland, OR, Jul. 2004.
+
+\item Erik Lidskog et. al., ``Space-time codes for 3 transmit
+antennas for the OFDMA PHY," Portland, OR, Jul. 2004 ({\em accepted
+and incorporated into the IEEE 802.16e Standard})
+
+
+\end{enumerate}
+
+\vspace{8pt}{\bfs PROJECTS} \vspace{5pt}\\
+
+
+\vspace{8pt} {\bfs KFUPM Funded} \\
+
+\begin{enumerate}
+
+\item Channel Estimation for Massive MIMO Communication Systems, {\em funded by DSR, King Fahd University of Petroleum \& Minerals}, May 2013 – May 2015. (Principal Investigator)
+
+\item Signal Strength based Indoor Localization with No Deployment Effort, {\em funded by DSR, King Fahd University of Petroleum and Minerals}, Dec 2013 – May 2015. (Co-Investigator)
+
+
+
+\item Statistical Characterization of Indefinite Quadratic Forms and their Applications, {\em funded by Deanship of Scientific Research, King Fahd University of Petroleum \& Minerals,} May 2012 -- Apr. 2013. (Principal Investigator)
+
+\item A structured Bayesian approach for block sparisty recovery, {\em funded by Deanship of Scientific Research, King Fahd University of Petroleum \& Minerals,} Jan. 2011 -- Jul. 2012. (Principal Investigator)
+
+\item Low Complexity Blind Equalization for SISO Systems with General Constellations, {\em funded by Deanship of Scientific Research, King Fahd University of Petroleum \& Minerals,} Dec. 2011 -- Nov. 2012. (Principal Investigator)
+
+\item PAPR Reduction of OFDM Signals by Compressed Estimation, {\em funded by Deanship of Scientific Research, King Fahd University of Petroleum \& Minerals,}  Sep. 2010 -- Aug. 2011. (Principal Investigator)
+
+\item ï¿½Blind channel estimation of OFDM system by relying on the Gaussian assumption of the input,ï¿½ {\em funded by Deanship of Scientific Research, King Fahd University of Petroleum \& Minerals,} Mar. 2009 -- May 2010. (Principal Investigator)
+
+\item Using the Cyclic Prefix for Blind Equalization in OFDM, {\em funded by Deanship of Scientific Research, King Fahd University of Petroleum \& Minerals,} Sep. 2008 -- Nov. 2009. (Principal Investigator)
+
+\item Broadcasting Data to Multiple User Groups: Information Theoretic Investigation of the Wide Band Case, {\em funded by Deanship of Scientific Research, King Fahd University of Petroleum \& Minerals,} Jun. 2007 -- Feb. 2009. (Principal Investigator)
+
+\item Free Deconvolution for Seismic Applications, {\em Jointly Funded Project by L'Ecole Sup{\'e}rieure d'{\'e}lectricit{\'e} (Sup{\'e}lec), Paris, France and King Fahd University of Petroleum \& Minerals,} Jun. 2008 -- Dec. 2008. (Co-Investigator)
+
+\item The Effect of Spatial Correlation on the Capacity of Multi-Input Multi-Output Broadcast Channels with Partial Side Information, {\em funded by Deanship of Scientific Research, King Fahd University of Petroleum \& Minerals,} Mar. 2007 -- Jun. 2008. (Principal Investigator)
+
+\item Enhancing Student Participation in Extra Curricular Activities and Interaction with the Faculty, {\em A Project of KFUPM's Strategic Plan,} Mar. 2007 -- Jun. 2008. (Co-investigator)
+
+\item Frequency Domain Estimation of Time Variant Channels in OFDM, {\em Junior Faculty Project, funded by Deanship of Scientific Research, King Fahd University of Petroleum \& Minerals,} Sep. 2006 -- Aug. 2007. (Principal Investigator)
+
+\item Establishing Entrepreneurial and Value-added Programs, {\em A Project of KFUPM's Strategic Plan,} Mar. 2006 -- Jun. 2007. (Co-investigator)
+
+\item Online Development of the Undergraduate Communication Engineering Course, {\em funded by Deanship of Academic Development, King Fahd University of Petroleum \& Minerals,} May 2006 -- Jun. 2007. (Co-investigator)
+
+
+\end{enumerate}
+
+\vspace{8pt} {\bfs Annual King Abdul-Aziz City of Science and Technology (KACST) and National Science, Technology, and Innovation Plan (NSTIP) funded projects} \\
+
+\begin{enumerate}
+
+\item Improving the performance of an Ultrasonic/Passive Infrared-based Urban Flood Sensor Network, {\em submitted to National Science, Technology, and Innovation Plan (NSTIP),} submitted (US\$ 310,200) (Principal Investigator)
+
+\item Performance of Distributed Estimation of Unknown Parameters in WSNs with Practical Wireless Channel and Observation Models, funded by King Abdul-Aziz City of Science and Technology, Sep 2014 -- Sep 2016 (US\$ 132,712). (Principal Investigator)
+
+\item Compressive Sensing for Feedback Reduction in MIMO Broadcast Channels, {\em funded by National Science, Technology, and Innovation Plan (NSTIP),} Jun. 2010 -- Jun. 2012. (Co-investigator)
+
+\item Distributed localization of impulsive acoustical sources algorithms and prototype implementation, {\em funded by National Science, Technology, and Innovation Plan (NSTIP),} Jun. 2010 -- Jun. 2012.  (Co-investigator)
+
+\item Narrow Band Interference Cancellation in MIMO-OFDM systems using Compressed Sensing, {\em funded by National Science, Technology, and Innovation Plan (NSTIP),} June 2010 -- May 2012. (Co-investigator)
+
+\item Wireless Network Optimization and Planning for WiMAX, {\em funded by King Abdul-Aziz City of Science and Technology,} Jun. 2009 -- Jun. 2011. (Co-Investigator)
+
+\item Estimation of Time-Variant Channels and ICI Cancellation in OFDM, {\em funded by King Abdul-Aziz City of Science and Technology,} Dec. 2007 -- Dec. 2009. (Principal Investigator)
+
+\end{enumerate}
+
+\vspace{8pt} {\bfs Industrial Projects} \\
+
+\begin{enumerate}
+\item Estimation and cancellation of impulsive noise in DSL lines, {\em funded by Saudi Telecom Company (STC),} Sep. 2009 May 2010. (Principal Investigator)
+
+\item The Near-Surface Seismic Investigation Consortium, {\em A Consortium Funded by Saudi Aramco and Schlumberger,} Jan. 2007 - Jan. 2008. (Co-investigator)
+
+\end{enumerate}
+
+
+\vspace{8pt} {\bfs KAUST Funded} \\
+
+\begin{enumerate}
+\item Achieving Full Potentials of Massive MIMO Systems: Theories and Algorithms, March 2015-Feb. 2016, (US\$ 1,079,500).
+
+\item Advanced Public Safety Communication Infrastructure for the Middle East, Sep 2012-- Sep 2014 (US\$ 592,650). (Co-investigator)
+
+\item Energy and Spectrum Efficient Passive Radar for Detection and Imaging, Jan 2014 -- Jan 2017 (US\$ 541,531). (Co-investigator)
+\end{enumerate}
+
+
+\vspace{8pt}{\bfs TALKS} \vspace{5pt}\\
+
+\begin{enumerate}
+
+\item ``Distribution Agnostic Structured Sparsity Recovery: Algorithms and Applications,''  {\em Univ. de Nice Sophia-Antipolis,} Nice,  Apr. 21, 2016.
+
+\item ``Ultra-wideband Communications and Localization: Challenges and Solutions,'' {\em KAUST-NSF Conference,} KAUST, Mar. 16, 2016.
+
+\item ``Bounded Perturbation Regularization for Linear Least Squares Inverse Problems,'' {\em Earth Sciences Seminar,} KAUST,  Feb. 24, 2016.
+
+\item  ``Bounded perturbation regularization for linear least squares inverse problems,'' {\em Information Theory and Applications Symposium,} San Diego, Feb. 4, 2016.
+
+\item ``Distribution Agnostic Structured Sparsity Recovery: Algorithms and Applications,'' {\em Department of Computer Science Colloquiumm Western Michigan University,} Jan. 26, 2016.
+
+\item ``Distribution Agnostic Structured Sparsity Recovery: Algorithms and Applications,'' {\em Technische Universit{\"a}t,} Darmstadt, Germany, Oct 15, 2014.
+
+\item ``Distribution Agnostic Structured Sparsity Recovery: Algorithms and Applications,'' {\em Hungarian Academy of Sciences, Institute for Computer Science and Control,} Budapest, Hungary, July 23, 2014.
+
+\item ``Distribution Agnostic Structured Sparsity Recovery: Algorithms and Applications,'' {\em Alcatel-Lucent Bell Labs,} Paris, France, Jun 19, 2014.
+
+\item ``Distribution Agnostic Structured Sparsity Recovery: Algorithms and Applications,'' {\em Technische Universit{\"a}t,} M{\"u}nchen, Germany, Jun 11, 2014.
+
+\item ``An Introduction to (Bayesian) Compressed Sensing with Applications in Communication, Signal and Image Processing,'' {\em Universit{\'e} Paris-Est Marne-La-Vall{\'e}e,} Paris, France, May 31, 2014.
+
+\item ``Bayesian Sparse Recovery: A Distribution Agnostic Approach with Applications,'' {\em VCC Summit, King Abdullah University of Science and Technology,} Thuwal, Saudi Arabia, Apr 14, 2014.
+
+\item ``An Introduction to (Bayesian) Compressed Sensing with Applications in Communication and Signal Processing,'' {\em TexasA\&M University,} Qatar, Mar 31, 2014.
+
+\item ``Bayesian Sparse Recovery: A Distribution Agnostic Approach with Applications to PAPR Reduction in OFDM and Massive MIMO,'' {\em INPT,} Rabat, Morocco, Mar 20, 2014.
+
+\item ``An Introduction to (Bayesian) Compressed Sensing with Applications in Communication and Signal Processing,'' {\em SS5G 2014, Sup’Com,} Tunisia, Mar 17, 2014.
+
+\item ``Bayesian Sparse Recovery: Distribution Agnostic Approach with Applications to PAPR Reduction in OFDM and Massive MIMO,'' {\em King Abdullah University of Science and Technology,} Thuwal, Saudi Arabia, Feb 8, 2014.
+
+\item ``Impulse Noise Estimation and Cancellation in OFDM Systems,'' {\em ASSIA,} Santa Clara, CA, Apr. 4, 2013.
+
+\item ``Receiver-Based Bayesian PAPR Reduction in OFDM," {\em Qualcomm,} Santa Clara, CA, Apr. 5, 2013.
+
+\item ``Structured Sparsity: Bayesian Recovery Algorithms and Applications," {\em Keynote speech, WOSSPA,} Algeries, Algeria, May 2013.
+
+\item ``Distribution Agnostic Structured Sparsity Recovery Algorithms and Applications," {\em Sup’Com,} Tunisia, May 17, 2013.
+
+\item ``Structured Sparsity: Bayesian Recovery Algorithms and Applications," {\em University of Toronto,} June 6, 2013.
+
+\item ``Structured Sparsity: Bayesian Recovery Algorithms and Applications," {\em University of
+Ontario Institute of Technology,} June 12, 2013.
+
+\item ``Structured Sparsity: Bayesian Recovery Algorithms and Applications," {\em {\'E}cole Polytechnique de Montr{\'e}al,} Montreal, June 13, 2013.
+
+\item ``Structured Sparsity: Bayesian Recovery Algorithms and Applications," {\em Georgia Institute of Technology,} June 17, 2013.
+
+\item ``Structured Sparsity: Bayesian Recovery Algorithms and Applications," {\em The University of Akron,} Akron, Ohio, June 20, 2013.
+
+\item ``Bayesian Estimaton of Sparse Signals with Applications in Signal Processing and Communications," {\em A tutorial at EUSIPCO,} Marrakesh, Sep. 9, 2013.
+
+
+
+\item ``A Bayesian Approach to multi-channel (Blind) Deconvolution,"
+{\em KFUPM-GA Tech workshop, King Fahd University of Petroleum and Minerals (KFUPM),} Dhahran,
+Saudi Arabia, Dec. 17, 2012.
+
+\item ``Compressed Sensing: An overview and an application to Seismic Deconvolution,"
+{\em Earth Sciences Seminar, King Abdullah University of Science and Technology (KAUST),} Thuwal,
+Saudi Arabia, Nov. 6, 2012.
+
+\item ``Structure Based Bayesian Sparse Reconstruction,"
+{\em Electrical Engineering Department, University of Akron,} Akron, Ohio August 24, 2012.
+
+\item ``Structure Based Bayesian Sparse Reconstruction,"
+{\em Electrical Engineering Department Northwestern University,} Evanston, IL, July 11, 2012.
+
+\item ``Structure Based Bayesian Sparse Reconstruction,"
+{\em Electrical Engineering Department American University of Beirut,} Lebanon, May 11, 2012.
+
+\item ``Combating Impairments of OFDM Systems:  A Model Reduction Approach,"
+{\em Electrical Engineering Department King Abdullah University of Science and
+Technology (KAUST),} Thuwal, Saudi Arabia, Jan. 4, 2012.
+
+
+
+\item ``Combating Impairments of OFDM Systems Electrical Engineering Department,"
+{\em Masdar Institute,} Abu Dhabi, United Arab Emirates, Oct. 13, 2011.
+
+
+\item ``Progress in Collaboration between KFUPM \& KAUST,"
+{\em KFUPM's International Advisory Board at KAUST,} Thuwal, Saudi Arabia,
+Jan. 12, 2010.
+
+
+\item ``A Model Reduction Approach for OFDM Channel Estimation Under High Mobility Conditions" Electrical Engineering Department,
+{\em King Fahd University of Petroleum and Minerals}
+Mar. 1, 2011
+
+\item ``An Overview of KFUPM"
+{\em King Abdullah University of Science \& Technology }
+Dec. 1, 2010
+
+\item  ``Combating Some Impairments of OFDM Systems: A Model Reduction Approach"
+{\em Electrical Engineering Department, Stanford University}
+Aug. 30, 2010
+
+\item ``The Potential of Compressive Sensing in (Seismic) Signal Processing"
+{\em Workshop on KFUPM-GA Tech Joint Research Program, King Fahd University of Petroleum and Minerals}
+Jun. 21, 2010 [Abstract]
+
+
+\item ``Indefinite quadratic forms in Gaussian
+random variables: Distribution, scaling, and applications,"
+{\em Electrical Engineering Department, Texas A \& M Qatar,} Jun. 3rd,
+2009.
+
+
+\item ``Writing with two languages: \$yMb0ls \& Words"
+{\em Electrical Engineering Department, King Fahd University of Petroleum
+and Minerals,} Apr. 7, 2009.
+
+\item ``Indefinite quadratic forms in Gaussian
+random variables: Distribution, scaling, and applications,"
+{\em Electrical Engineering Department, American University of Beirut,}
+Feb. 19, 2009.
+
+\item ``An Overview of Research Interests and Contributions,"
+{\em KFUPM's International Advisory Board, SABIC Head
+Quarters,} Riyadh, Saudi Arabia Jan. 12, 2009.
+
+
+
+\item ``Indefinite quadratic forms in Gaussian random variables:
+Distribution, scaling, and application to the broadcast channel,"
+{\em Electrical Engineering Department, University of Texas at
+Dallas,} TX, Sep. 4, 2008.
+
+\item ``Indefinite quadratic forms in Gaussian random variables:
+Distribution, scaling, and application to the broadcast channel,"
+{\em Electrical Engineering Department, Smart Antenna Research
+Group, Stanford University,} CA, Aug. 22, 2008.
+
+
+\item ``Scaling laws of multiple antenna (group) broadcast channels,"
+{\em Electrical Engineering Department, University of California at
+Irvine,} CA, Jun. 18, 2008.
+
+\item ``Scaling laws of multiple antenna (group) broadcast channels,"
+{\em Electrical Engineering Department, University of Southern
+California,} CA, Feb. 20, 2008.
+
+
+\item ``(Semi) blind channel identification and equalization in OFDM,"
+{\em Babak Hassibi's Research Group, Electrical Engineering
+Department, California Institute of Technology,} Pasadena, CA, Feb.
+15, 2008.
+
+
+%\item ``Communicating with \mbox{$\ss$ymb0ls} and words," {\em
+%Electrical Engineering Department, King Fahd University of
+%Petroleum and Minerals,} Dhahran, Saudi Arabia, Dec. 4, 2007.
+
+\item ``Scaling laws of multiple antenna group-broadcast
+channels," {\em Ecole \mbox{Sup\'{e}rieure}
+\mbox{\'{d}Electricit\'{e}} (\mbox{Sup\'{e}lec}),} Paris, France,
+Jul. 6, 2007.
+
+\item ``How much does correlation affect the sum-rate of MIMO
+downlink channels?" {\em Institute Eurï¿½com, Sophia-Antipolis,}
+France, Jun. 21, 2007.
+
+
+\item ``The potential of adaptive filtering for seismic signal
+processing," {\em Research Institute, King Fahd University of
+Petroleum and Minerals,} Dhahran, Saudi Arabia, May 15, 2007.
+
+\item ``Broadcasting data to multiple user groups: Information
+theoretic investigation of the wide band case," {\em Electrical
+Engineering Department, King Fahd University of Petroleum and
+Minerals,} Dhahran, Saudi Arabia, May 1st, 2007.
+
+\item ``Opportunistic scheduling in wireless networks: An overview
+of issues and design considerations," (jointly with Dr. Yahya
+Al-Harthi (KFUPM) and Dr. Mohamed-Slim Alouini (Texas A \& M Qatar),
+Tutorial at the {\em International Symposium on Signal Processing
+and its Applications (ISSPA 2007),} Sharjah, UAE, Feb. 11, 2007.
+
+
+\item ``Employing undergraduates as teaching assistants at KFUPM,"
+{\em Deanship of Academic Development, Center of Teaching and
+Learning, King Fahd University of Petroleum and Minerals,}
+Dhahran, Saudi Arabia, Jan. 16, 2007.
+
+\item ``The effect of spatial correlation on the capacity of MIMO
+broadcast channels with partial side information," {\em Electrical
+Engineering Department, King Fahd University of Petroleum and
+Minerals,} Dhahran, Saudi Arabia, Jan. 13, 2007.
+
+
+\item ``How much does correlation affect the sum-rate of MIMO
+downlink channels?ï¿½ {\em Electrical Engineering Department,
+Imperial College,} London, UK, Nov. 23, 2006.
+
+\item ``A unified approach to mean-square analysis of adaptive
+filters," {\em Electrical Engineering Department, King Fahd
+University of Petroleum and Minerals,} Dhahran, Saudi Arabia, Nov.
+20, 2006.
+
+
+\item ``How much does correlation affect the sum-rate of MIMO
+downlink channels?" {\em Research Department, Intel Corporation,}
+Santa Clara, CA, Aug. 22, 2006.
+
+\item ``Broadcasting data to multiple user groups: An information
+theoretic investigation," {\em Babak Hassibi's Research Group,
+Electrical Engineering Department, California Institute of
+Technology,} Pasadena, CA, Jul. 29, 2006.
+
+
+\item ``A framework for the estimation of time-variant channels in
+OFDM," {\em Delft Technical University,} Delft, the Netherlands,
+Jun. 9th, 2006.
+
+
+\item ``A forward backward Kalman for the estimation of
+time-variant channels in OFDM," {\em Electrical Engineering
+Department, King Fahd University of Petroleum and Minerals,}
+Dhahran, Saudi Arabia, Nov. 16, 2005.
+
+\item ``A framework for the estimation of time-variant channels in
+OFDM," {\em the University of New Louvain,} Belgium, Nov. 2nd,
+2005.
+
+\item ``A unified approach to mean-square analysis of adaptive
+filters," {\em the University of New Louvain,} Belgium, Nov. 2nd,
+2005.
+
+
+\item ``A framework for the estimation of time-variant channels in
+OFDM," {\em Telecommunications Research Center,} Vienna, Austria,
+Oct. 28, 2005.
+
+
+\item ``Wireless broadband networks--WIMAX: A contrast and a
+complement to WiFi,"  (jointly with Dr. Salam Zummo) {\em Internet
+and Communications Engineering Technical Exchange Meeting
+(e-CETEM), Saudi Aramco,} Dhahran, Saudi Arabia, Sep. 19, 2005.
+
+
+\item ``A unified approach for transient analysis of adaptive
+filters," {\em Babak Hassibi's Research Group, Electrical
+Engineering Department, California Institute of Technology,}
+Pasadena, Mar. 25th, 2005.
+
+
+\item ``Receiver design for MIMO-OFDM transmission over
+time-variant frequency selective channels," Standards Group, {\em
+Qualcomm Corporation,} San Diego, Jun. 18th, 2004.
+
+
+\item ``Receiver design for MIMO-OFDM transmission over
+time-variant frequency selective channels," Communications Systems
+Lab., {\em Texas Instruments,} Dallas, TX, Feb. 23, 2004.
+
+\item ``Adaptive semi-blind receiver for MIMO-OFDM transmission,"
+{\em ATHEROS Communications,} Sunnyvale, CA, Dec. 23, 2003.
+
+
+
+\item ``Receiver design for MIMO OFDM transmission over
+time-variant channels," {\em TZero Technologies Inc.,} Sunnyvale,
+CA, Jan. 27, 2004.
+
+\item ``An OFDM receiver for MIMO OFDM transmission over wireless
+channels," {\em Intel Corporation}, Sunnyvale, CA, Dec. 19, 2003.
+
+
+\item ``A semi-blind algorithm for OFDM transmission over wireless
+channels," {\em Stanford Networking Research Group,} Stanford
+University, Apr. 10, 2003.
+
+
+\item ``Adaptive algorithms for wireless channel estimation"
+Qualcomm Technology Ventures," {\em Qualcomm Corporation,} San
+Diego, Apr. 3, 2003.
+
+
+
+\end{enumerate}
+
+
+%\fi
+
+\end{document}
+
