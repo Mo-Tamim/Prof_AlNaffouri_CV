@@ -1,3 +1,4 @@
+# OUTDATED CAN BE DELETED
 This repository is for generating the curriculum vita of professor Tareq Y. AlNaffouri.
 
 * If you want ot access to the updated CV, you may use the PDF version on this repository. 
